@@ -1,4 +1,4 @@
-# PPTools-For-Mac
+# PPTools-For-Mac (waiting for more function)
 
 # tips
 a simple tool for mac which made by [Garenge](https://github.com/LiuZhangpeng)
