@@ -39,7 +39,7 @@
         //
         [resultMString appendFormat:@"<img src=\"%@\" style=\"width:%@%%; height:%@%%; display:block;margin:0 auto\">\n", self.picSourceTF.stringValue, self.scaleValueTF.stringValue, self.scaleValueTF.stringValue];
         //
-        [resultMString appendFormat:@"<p style=\"text-align:center\">\n\t<span style=\"border-bottom:1px solid #ccc;padding-bottom:10px;\">%@</span>\n</p>\n<br/>", self.picNameTF.stringValue];
+        [resultMString appendFormat:@"\t<p style=\"text-align:center\">\n\t\t<span style=\"border-bottom:1px solid #ccc;color:#aaa;padding-bottom:10px;\">%@</span>\n\t</p>\n<br/>", self.picNameTF.stringValue];
         
         self.resultTextView.string = [resultMString copy];
     } else {
