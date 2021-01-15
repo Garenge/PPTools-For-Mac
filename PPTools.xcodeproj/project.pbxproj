@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3383D81D25B1D98200AE0153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3383D81C25B1D98200AE0153 /* Main.storyboard */; };
 		9DD87042223A5D17000F2448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD87041223A5D17000F2448 /* AppDelegate.m */; };
 		9DD87045223A5D17000F2448 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD87044223A5D17000F2448 /* ViewController.m */; };
 		9DD87047223A5D18000F2448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD87046223A5D18000F2448 /* Assets.xcassets */; };
-		9DD8704A223A5D18000F2448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD87048223A5D18000F2448 /* Main.storyboard */; };
 		9DD8704D223A5D18000F2448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8704C223A5D18000F2448 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3383D81C25B1D98200AE0153 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9DD8703D223A5D17000F2448 /* PPTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD87040223A5D17000F2448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9DD87041223A5D17000F2448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9DD87043223A5D17000F2448 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9DD87044223A5D17000F2448 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9DD87046223A5D18000F2448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9DD87049223A5D18000F2448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DD8704B223A5D18000F2448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DD8704C223A5D18000F2448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9DD8704E223A5D18000F2448 /* PPTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PPTools.entitlements; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 				9DD87043223A5D17000F2448 /* ViewController.h */,
 				9DD87044223A5D17000F2448 /* ViewController.m */,
 				9DD87046223A5D18000F2448 /* Assets.xcassets */,
-				9DD87048223A5D18000F2448 /* Main.storyboard */,
+				3383D81C25B1D98200AE0153 /* Main.storyboard */,
 				9DD8704B223A5D18000F2448 /* Info.plist */,
 				9DD8704C223A5D18000F2448 /* main.m */,
 				9DD8704E223A5D18000F2448 /* PPTools.entitlements */,
@@ -128,7 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DD87047223A5D18000F2448 /* Assets.xcassets in Resources */,
-				9DD8704A223A5D18000F2448 /* Main.storyboard in Resources */,
+				3383D81D25B1D98200AE0153 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,17 +146,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9DD87048223A5D18000F2448 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DD87049223A5D18000F2448 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9DD8704F223A5D18000F2448 /* Debug */ = {
